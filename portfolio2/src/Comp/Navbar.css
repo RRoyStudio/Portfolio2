@@ -1,0 +1,40 @@
+.nav{
+    border: red solid 1px;
+}
+
+
+.colmn1 {
+    float: left;
+    width: 50%;
+  } 
+
+.colmn1 img{
+      width: 100px;
+      height: 100px;
+      padding: 5px;
+      margin: 1vw;
+  }
+  
+  .colmn2 {
+    float: right;
+    width: 1fr;
+    text-decoration: none;
+  }
+
+  ul{
+      list-style-type: none;
+      float: right;
+      margin: 1vw;
+  }
+
+  li{
+    display:inline-block;
+    margin: 1vw;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
