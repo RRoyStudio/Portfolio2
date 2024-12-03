@@ -5,13 +5,16 @@ import Header from './Comp/home-header';
 import Software from './Comp/Software';
 import Projects from './Comp/project-home';
 import Contact from './Comp/contact-home';
-import Footer from './Comp/footer';
+import Footer from './Comp/footer.js';
 
 
 function HomePage() {
   return (
     <div className="HomePage">
-      <Navbar />
+      <Navbar className="nav" />
+      <Header className="header" />
+      <Footer className="footer"/>
+      
     </div>
   );
 }
